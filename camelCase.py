@@ -10,6 +10,8 @@ def camelcase(sentence):
 
 
 def main():
+    display_banner()
+    print("Enter a sentence to convert to camelCase")
     sentence = input('Enter your sentence: ')
     output = camelcase(sentence)
     print(output)
