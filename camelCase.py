@@ -15,5 +15,12 @@ def main():
     print(output)
 
 
+def display_banner():
+    """ Display program name in banner """
+    msg = 'AWSOME camelCaseGenerator PROGRAM'
+    stars = '*' * len(msg)
+    print(f'\n {stars} \n {msg} \n {stars}\n')
+
+
 if __name__ == '__main__':
     main()
